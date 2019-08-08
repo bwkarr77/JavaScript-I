@@ -8,7 +8,7 @@
 // 3,kmummery2@wikimedia.org,Keven,M
 // 4,gmartinson3@illinois.edu,Gannie,M
 // 5,adaine5@samsung.com,Antonietta,F
-
+console.log(`-----Objects Section-----`);
 // Example format of an intern object: 1,examples@you.edu,Example,F
 const example = {
   "id": 0,
@@ -28,15 +28,15 @@ let interns = [{"id":1,"name":"Mitzi","email":"mmelloy0@psu.edu","gender":"F"},
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(interns[0].name);
+console.log(`Mitzi's name: ${interns[0].name}`);
 // Kennan's ID
-console.log(interns[1].id);
+console.log(`Kennan's ID: ${interns[1].id}`);
 // Keven's email
-console.log(interns[2].email);
+console.log(`Keven's email: ${interns[2].email}`);
 // Gannie's name
-console.log(interns[3].name);
+console.log(`Gannie's name: ${interns[3].name}`);
 // Antonietta's Gender
-console.log(interns[4].gender);
+console.log(`Antonietta's Gender: ${interns[4].gender}`);
 
 
 // ==== Challenge 3: Object Methods ==== 
@@ -81,6 +81,7 @@ const parent = {
   }
 }
 
+console.log(`---Stretch Goals for Objects Section----`);
 // Log the parent object's name
 console.log(parent.name);
 // Log the child's age
